@@ -1,0 +1,53 @@
+# TS EXAMPLE
+# layout:
+#	1 = style01
+#	2 = style02
+#	3 = style03
+#	4 = style04
+#	5 = style05
+#	6 = style06
+#	7 = style07
+#	8 = style08
+#	9 = style09
+#	10 = style10
+#	11 = style11
+#	12 = style12
+#	13 = style13
+#	14 = style14
+#
+##################
+#
+# Twitter / Facebook / Google+ / MeinVZ / YouTube / Xing / LinkedIn, Tumblr, VKonkakte, Flickr - 1 = on | 0 = off
+#
+##################
+#
+# shortener
+#
+# tco 	= Twitter t.co
+# bitly = bit.ly account
+#
+
+
+
+###YOUR_MARKER### < plugin.tx_stsocialnetwork_pi1
+plugin.tx_stsocialnetwork_pi1{
+	twitter 	= 1
+	facebook 	= 1
+	google 		= 1
+	meinvz 		= 1
+	youtube 	= 1
+	xing		= 1
+	linkedin	= 1
+	tumblr		= 1
+	vkontakte	= 1
+	flickr	= 1
+	twittername = YOUR_USERNAME
+	flickrname	= LINK TO FLICKR PHOTOSTREAM
+	youtubename = YOUR_USERNAME
+	BITusername = YOUR_USERNAME
+	BITapi = YOUR_API_KEY
+	layout = style05
+	shortener = tco
+	sorting = twitter, facebook, meinvz, youtube, tumblr, vkontakte, flickr, googleplus, googleshare, xing, linkedin, t3n
+}
+

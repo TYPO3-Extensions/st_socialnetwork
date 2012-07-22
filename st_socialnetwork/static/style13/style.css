@@ -1,0 +1,29 @@
+a.style13 {
+	width: 24px;
+	height: 24px;
+	display: block;
+	margin-left: 5px;
+	float: left;
+	text-indent: -9999px;
+	overflow:hidden;
+	line-height:0px;
+	font-size:0px;
+}
+
+a.style13.twitter { background-image: url(twitter-2.png); }
+a.style13.facebook { background-image: url(facebook.png); }
+a.style13.youtube { background-image: url(youtube.png); }
+a.style13.xing { background-image: url(xing.png); }
+a.style13.linkedin { background-image: url(linkedin.png); }
+a.style13.tumblr { background-image: url(tumblr.png); }
+a.style13.flickr { background-image: url(flickr.png); }
+
+.cleaner {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    clear: both;
+    font-size: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;	
+}

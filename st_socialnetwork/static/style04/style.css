@@ -1,0 +1,28 @@
+a.style04 {
+	width: 60px;
+	height: 60px;
+	display: block;
+	margin-left: 5px;
+	float: left;
+	text-indent: -9999px;
+	overflow:hidden;
+	line-height:0px;
+	font-size:0px;
+}
+
+a.style04.twitter { background-image: url(twitter.png); }
+a.style04.facebook { background-image: url(facebook.png); }
+a.style04.youtube { background-image: url(youtube.png); }
+a.style04.linkedin { background-image: url(linkedin.png); }
+a.style04.tumblr { background-image: url(tumblr.png); }
+a.style04.flickr { background-image: url(flickr.png); }
+
+.cleaner {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    clear: both;
+    font-size: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;	
+}

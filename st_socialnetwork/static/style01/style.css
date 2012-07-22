@@ -1,0 +1,57 @@
+a.style01 {
+	width: 62px;
+	height: 18px;
+	display: block;
+	margin-left: 5px;
+	float: left;
+}
+
+a.style01.twitter {
+	background-image: url(twitter.jpg);
+	text-indent: -9999px;
+	overflow:hidden;
+	line-height:0px;
+	font-size:0px; 
+}
+
+a.style01.facebook {
+	background-image: url(facebook.jpg);
+	text-indent: -9999px;
+	overflow:hidden;
+	line-height:0px;
+	font-size:0px; 
+}
+
+a.style01.meinvz {
+	background-image: url(meinvz.jpg);
+	text-indent: -9999px;
+	overflow:hidden;
+	line-height:0px;
+	font-size:0px; 
+}
+
+a.style01.xing {
+	background-image: url(xing.png);
+	text-indent: -9999px;
+	overflow:hidden;
+	line-height:0px;
+	font-size:0px; 
+}
+
+a.style01.linkedin {
+	background-image: url(linkedin.png);
+	text-indent: -9999px;
+	overflow:hidden;
+	line-height:0px;
+	font-size:0px; 
+}
+
+.cleaner {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    clear: both;
+    font-size: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;	
+}

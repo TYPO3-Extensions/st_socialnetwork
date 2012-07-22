@@ -1,0 +1,27 @@
+a.style06 {
+	width: 32px;
+	height: 32px;
+	display: block;
+	margin-left: 5px;
+	float: left;
+	text-indent: -9999px;
+	overflow:hidden;
+	line-height:0px;
+	font-size:0px;
+}
+
+a.style06.twitter { background-image: url(twitter.png); }
+a.style06.facebook { background-image: url(facebook.png); }
+a.style06.youtube { background-image: url(youtube.png); }
+a.style06.linkedin { background-image: url(linkedin.png); }
+a.style06.flickr { background-image: url(flickr.png); }
+
+.cleaner {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    clear: both;
+    font-size: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;	
+}

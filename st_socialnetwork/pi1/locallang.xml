@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for plugin &quot;tx_stsocialnetwork_pi1&quot;</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="nodata">No Data</label>
+			<label index="error_bit_username">bit.ly username is missing</label>
+			<label index="error_bit_api">bit.ly api-key is missing</label>
+			<label index="error_twittername">Twitter name is missing</label>
+			<label index="error_youtubename">YouTube name is missing</label>
+			<label index="error_language">config.language is missing in the typoscript</label>
+			<label index="error_locale_all">config.locale_all is missing in the typoscript</label>
+		</languageKey>
+	</data>
+</T3locallang>

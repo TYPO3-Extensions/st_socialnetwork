@@ -1,0 +1,328 @@
+<T3DataStructure>
+<meta>
+	<langDisable>1</langDisable>
+</meta>         
+      <ROOT>
+        <type>array</type>
+        <el>
+			
+			<layout>
+			<TCEforms>
+				<label>LLL:EXT:st_socialnetwork/locallang_tca.php:style</label>
+				<onChange>reload</onChange>
+				<config>
+					<type>select</type>
+					<items type="array">
+						<numIndex index="0" type="array">
+							<numIndex index="0">LLL:EXT:st_socialnetwork/locallang_tca.php:style01</numIndex>
+							<numIndex index="1">style01</numIndex>
+						</numIndex>
+						
+						<numIndex index="1" type="array">
+							<numIndex index="0">LLL:EXT:st_socialnetwork/locallang_tca.php:style02</numIndex>
+							<numIndex index="1">style02</numIndex>
+						</numIndex>
+						
+						<numIndex index="2" type="array">
+							<numIndex index="0">LLL:EXT:st_socialnetwork/locallang_tca.php:style03</numIndex>
+							<numIndex index="1">style03</numIndex>
+						</numIndex>
+						
+						<numIndex index="3" type="array">
+							<numIndex index="0">LLL:EXT:st_socialnetwork/locallang_tca.php:style04</numIndex>
+							<numIndex index="1">style04</numIndex>
+						</numIndex> 
+						
+						<numIndex index="4" type="array">
+							<numIndex index="0">LLL:EXT:st_socialnetwork/locallang_tca.php:style05</numIndex>
+							<numIndex index="1">style05</numIndex>
+						</numIndex>
+						
+						<numIndex index="5" type="array">
+							<numIndex index="0">LLL:EXT:st_socialnetwork/locallang_tca.php:style06</numIndex>
+							<numIndex index="1">style06</numIndex>
+						</numIndex>
+						
+						<numIndex index="6" type="array">
+							<numIndex index="0">LLL:EXT:st_socialnetwork/locallang_tca.php:style07</numIndex>
+							<numIndex index="1">style07</numIndex>
+						</numIndex>
+						
+						<numIndex index="7" type="array">
+							<numIndex index="0">LLL:EXT:st_socialnetwork/locallang_tca.php:style08</numIndex>
+							<numIndex index="1">style08</numIndex>
+						</numIndex>
+						
+						<numIndex index="8" type="array">
+							<numIndex index="0">LLL:EXT:st_socialnetwork/locallang_tca.php:style09</numIndex>
+							<numIndex index="1">style09</numIndex>
+						</numIndex>
+						
+						<numIndex index="9" type="array">
+							<numIndex index="0">LLL:EXT:st_socialnetwork/locallang_tca.php:style10</numIndex>
+							<numIndex index="1">style10</numIndex>
+						</numIndex>
+						
+						<numIndex index="10" type="array">
+							<numIndex index="0">LLL:EXT:st_socialnetwork/locallang_tca.php:style11</numIndex>
+							<numIndex index="1">style11</numIndex>
+						</numIndex>
+						
+						<numIndex index="11" type="array">
+							<numIndex index="0">LLL:EXT:st_socialnetwork/locallang_tca.php:style12</numIndex>
+							<numIndex index="1">style12</numIndex>
+						</numIndex>
+						
+						<numIndex index="12" type="array">
+							<numIndex index="0">LLL:EXT:st_socialnetwork/locallang_tca.php:style13</numIndex>
+							<numIndex index="1">style13</numIndex>
+						</numIndex> 
+						
+						<numIndex index="13" type="array">
+							<numIndex index="0">LLL:EXT:st_socialnetwork/locallang_tca.php:style14</numIndex>
+							<numIndex index="1">style14</numIndex>
+						</numIndex>                 
+					</items>
+				</config>
+			</TCEforms>
+		</layout>
+			
+			<twitter>
+				<TCEforms>              
+					<exclude>1</exclude>
+					<displayCond>FIELD:layout:IN:style01,style02,style03,style04,style05,style06,style07,style08,style09,style10,style11,style12,style13,style14</displayCond>
+					<label>LLL:EXT:st_socialnetwork/locallang_tca.php:twitter</label>
+					<config>
+						<type>check</type>
+					</config>
+				</TCEforms>
+			</twitter>
+			
+			<facebook>
+				<TCEforms>              
+					<exclude>1</exclude>
+					<displayCond>FIELD:layout:IN:style01,style02,style03,style04,style05,style06,style07,style08,style09,style10,style11,style12,style13,style14</displayCond>
+					<label>LLL:EXT:st_socialnetwork/locallang_tca.php:facebook</label>
+					<config>
+						<type>check</type>
+					</config>
+				</TCEforms>
+			</facebook>
+			
+			<google>
+				<TCEforms>              
+					<exclude>1</exclude>
+					<displayCond>FIELD:layout:IN:style11,style12</displayCond>
+					<label>LLL:EXT:st_socialnetwork/locallang_tca.php:google</label>
+					<config>
+						<type>check</type>
+					</config>
+				</TCEforms>
+			</google>
+		
+			<meinvz>
+				<TCEforms>              
+					<exclude>1</exclude>
+					<displayCond>FIELD:layout:IN:style01,style03</displayCond>
+					<label>LLL:EXT:st_socialnetwork/locallang_tca.php:meinvz</label>
+					<config>
+						<type>check</type>
+					</config>
+				</TCEforms>
+			</meinvz>
+			
+			<youtube>
+				<TCEforms>              
+					<exclude>1</exclude>
+					<displayCond>FIELD:layout:IN:style02,style03,style04,style05,style06,style07,style08,style09,style10,style13,style14</displayCond>
+					<label>LLL:EXT:st_socialnetwork/locallang_tca.php:youtube</label>
+					<config>
+						<type>check</type>
+					</config>
+				</TCEforms>
+			</youtube>
+			
+			<xing>
+				<TCEforms>              
+					<exclude>1</exclude>
+					<displayCond>FIELD:layout:IN:style01,style03,style10,style11,style12,style13</displayCond>
+					<label>LLL:EXT:st_socialnetwork/locallang_tca.php:xing</label>
+					<config>
+						<type>check</type>
+					</config>
+				</TCEforms>
+			</xing>
+			
+			<linkedin>
+				<TCEforms>              
+					<exclude>1</exclude>
+					<displayCond>FIELD:layout:IN:style01,style03,style04,style05,style06,style07,style08,style09,style10,style11,style12,style13,style14</displayCond>
+					<label>LLL:EXT:st_socialnetwork/locallang_tca.php:linkedin</label>
+					<config>
+						<type>check</type>
+					</config>
+				</TCEforms>
+			</linkedin>
+			
+			<tumblr>
+				<TCEforms>              
+					<exclude>1</exclude>
+					<displayCond>FIELD:layout:IN:style03,style04,style05,style13,style14</displayCond>
+					<label>LLL:EXT:st_socialnetwork/locallang_tca.php:tumblr</label>
+					<config>
+						<type>check</type>
+					</config>
+				</TCEforms>
+			</tumblr>
+			
+			<vkontakte>
+				<TCEforms>              
+					<exclude>1</exclude>
+					<displayCond>FIELD:layout:IN:style05</displayCond>
+					<label>LLL:EXT:st_socialnetwork/locallang_tca.php:vkontakte</label>
+					<config>
+						<type>check</type>
+					</config>
+				</TCEforms>
+			</vkontakte>
+			
+			<flickr>
+				<TCEforms>              
+					<exclude>1</exclude>
+					<displayCond>FIELD:layout:IN:style03,style04,style05,style06,style07,style13,style14</displayCond>
+					<label>LLL:EXT:st_socialnetwork/locallang_tca.php:flickr</label>
+					<config>
+						<type>check</type>
+					</config>
+				</TCEforms>
+			</flickr>
+
+			<googleshare>
+				<TCEforms>
+					<exclude>1</exclude>
+					<displayCond>FIELD:layout:IN:style11,style12</displayCond>
+					<label>LLL:EXT:st_socialnetwork/locallang_tca.php:googleshare</label>
+					<config>
+						<type>check</type>
+					</config>
+				</TCEforms>
+			</googleshare>
+
+			<t3n>
+				<TCEforms>
+					<exclude>1</exclude>
+					<displayCond>FIELD:layout:IN:style11,style12</displayCond>
+					<label>LLL:EXT:st_socialnetwork/locallang_tca.php:t3n</label>
+					<config>
+						<type>check</type>
+					</config>
+				</TCEforms>
+			</t3n>
+			
+			<twittername>
+				<TCEforms>  
+					<exclude>1</exclude>
+					<displayCond>FIELD:layout:IN:style01,style02,style03,style04,style05,style06,style07,style08,style09,style10,style11,style12,style13,style14</displayCond>
+					<label>LLL:EXT:st_socialnetwork/locallang_tca.php:twittername</label>
+					<config>
+						<type>input</type>
+						<size>10</size>
+						<max>40</max>
+						<eval>trim</eval>
+					</config>
+				</TCEforms>
+			</twittername>
+			
+			<youtubename>
+				<TCEforms>  
+					<exclude>1</exclude>
+					<displayCond>FIELD:layout:IN:style02,style03,style04,style05,style06,style07,style08,style09,style10,style11,style12,style13,style14</displayCond>
+					<label>LLL:EXT:st_socialnetwork/locallang_tca.php:youtubeusername</label>
+					<config>
+						<type>input</type>
+						<size>10</size>
+						<max>40</max>
+						<eval>trim</eval>
+					</config>
+				</TCEforms>
+			</youtubename>
+			
+			<flickrname>
+				<TCEforms>  
+					<exclude>1</exclude>
+					<displayCond>FIELD:layout:IN:style03,style04,style05,style06,style07,style13,style14</displayCond>
+					<label>LLL:EXT:st_socialnetwork/locallang_tca.php:flickrname</label>
+					<config>
+						<type>input</type>
+						<size>30</size>
+						<max>100</max>
+						<eval>trim</eval>
+					</config>
+				</TCEforms>
+			</flickrname>
+			
+			<shortener>
+				<TCEforms>
+					<label>LLL:EXT:st_socialnetwork/locallang_tca.php:shortener</label>
+					<onChange>reload</onChange>
+					<config>
+						<type>select</type>
+						<items type="array">
+							<numIndex index="0" type="array">
+								<numIndex index="0">LLL:EXT:st_socialnetwork/locallang_tca.php:tco</numIndex>
+								<numIndex index="1">tco</numIndex>
+							</numIndex>
+							
+							<numIndex index="1" type="array">
+								<numIndex index="0">LLL:EXT:st_socialnetwork/locallang_tca.php:bitly</numIndex>
+								<numIndex index="1">bitly</numIndex>
+							</numIndex>             
+						</items>
+					</config>
+				</TCEforms>
+			</shortener>
+
+			<BITusername>
+				<TCEforms>  
+					<exclude>1</exclude>
+					<displayCond>FIELD:shortener:IN:bitly</displayCond>
+					<label>LLL:EXT:st_socialnetwork/locallang_tca.php:BITusername</label>
+					<config>
+						<type>input</type>
+						<size>10</size>
+						<max>40</max>
+						<eval>trim</eval>
+					</config>
+				</TCEforms>
+			</BITusername>
+			
+			<BITapi>
+				<TCEforms>  
+					<exclude>1</exclude>
+					<displayCond>FIELD:shortener:IN:bitly</displayCond>
+					<label>LLL:EXT:st_socialnetwork/locallang_tca.php:BITapi</label>
+					<config>
+						<type>input</type>
+						<size>35</size>
+						<max>100</max>
+						<eval>trim</eval>
+					</config>
+				</TCEforms>
+			</BITapi>
+
+			<sorting>
+				<TCEforms>
+					<label>LLL:EXT:st_socialnetwork/locallang_tca.php:sorting</label>
+					<config>
+						<type>input</type>
+						<size>35</size>
+						<max>500</max>
+						<eval>trim</eval>
+						<default>twitter, facebook, meinvz, youtube, tumblr, vkontakte, flickr, googleplus, googleshare, xing, linkedin, t3n</default>
+					</config>
+				</TCEforms>
+			</sorting>
+             
+        </el>
+      </ROOT>
+</T3DataStructure>
