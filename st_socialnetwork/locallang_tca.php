@@ -1,8 +1,7 @@
 <?php
-
 $LOCAL_LANG = Array (
-    'default' => Array (
-          	'style'				=> 'Style',
+	'default' => Array (
+			'style'				=> 'Style',
 			'networks'			=> 'Network',
 			'twitter'			=> 'Twitter',
 			'facebook'			=> 'Facebook',
@@ -39,8 +38,8 @@ $LOCAL_LANG = Array (
 			'tco'				=> 'Twitter t.co',
 			'bitly'				=> 'your own bit.ly account',
 			'sorting'			=> 'Sorting (comma separated)'
-    ),
-    'de' => Array (
+	),
+	'de' => Array (
 			'style'				=> 'Style',
 			'networks'			=> 'Netzwerke',
 			'twitter'			=> 'Twitter',
@@ -80,4 +79,4 @@ $LOCAL_LANG = Array (
 			'sorting'			=> 'Sortierung (Komma getrennt)'
     ),
 );
-?> 
+?>
